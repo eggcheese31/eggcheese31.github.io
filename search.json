@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Vanny Chen",
+    "section": "",
+    "text": "My name is Vanny\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "qprojests.html",
+    "href": "qprojests.html",
+    "title": "Projects",
+    "section": "",
+    "text": "library(ggplot2)\n\n# Basic scatter plot\nggplot(data = mtcars, aes(x = wt, y = mpg)) +\n  geom_point(size = .8, col=\"firebrick\") + xlab(\"Vehicle Weight\") +\n  ylab(\"Miles per Gallon (MPG)\") +\n  theme_bw()"
+  },
+  {
+    "objectID": "Research.html",
+    "href": "Research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My publication\nMy conference paper"
+  },
+  {
+    "objectID": "projests.html",
+    "href": "projests.html",
+    "title": "Projects",
+    "section": "",
+    "text": "library(ggplot2)\n\n# Basic scatter plot\nggplot(data = mtcars, aes(x = wt, y = mpg)) +\n  geom_point(size = .8, col=\"firebrick\") + xlab(\"Vehicle Weight\") +\n  ylab(\"Miles per Gallon (MPG)\") +\n  theme_bw()"
+  }
+]
