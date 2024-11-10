@@ -1,0 +1,43 @@
+---
+title: "Projects"
+---
+
+```{r}
+library(ggplot2)
+
+# Basic scatter plot
+ggplot(data = mtcars, aes(x = wt, y = mpg)) +
+  geom_point(size = .8, col="firebrick") + xlab("Vehicle Weight") +
+  ylab("Miles per Gallon (MPG)") +
+  theme_bw()
+
+libr
+```
+
+```{r}
+# Bar chart of diamond cuts
+ggplot(diamonds, aes(x = cut)) +
+  geom_bar(fill = "skyblue") +
+  theme_bw()
+```
+
+```{r}
+library(plotly)
+
+# Create a ggplot object
+p <- ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point(size = .8, shape = 21, color = "steelblue", fill = "lightblue")  + xlab("Vehicle Weight") + 
+  theme_bw()
+
+# Convert the ggplot object to an interactive plot
+ggplotly(p)
+```
+
+```{r}
+# Convert ggplot bar chart to interactive plot
+p_bar <- ggplot(diamonds, aes(x = cut)) +
+  geom_bar(fill = "skyblue") +
+  theme_bw()
+
+ggplotly(p_bar)
+```

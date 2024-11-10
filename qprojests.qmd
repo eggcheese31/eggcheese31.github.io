@@ -1,0 +1,13 @@
+---
+title: "Projects"
+---
+
+```{r}
+library(ggplot2)
+
+# Basic scatter plot
+ggplot(data = mtcars, aes(x = wt, y = mpg)) +
+  geom_point(size = .8, col="firebrick") + xlab("Vehicle Weight") +
+  ylab("Miles per Gallon (MPG)") +
+  theme_bw()
+```
